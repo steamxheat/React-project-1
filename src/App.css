@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+header h2 {
+  margin: 0 0 10px;
+}
+
+nav a {
+  margin-right: 15px;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+.product img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
