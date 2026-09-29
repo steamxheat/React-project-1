@@ -21,6 +21,28 @@ main {
   padding: 20px;
 }
 
+.search {
+  width: 260px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 7px 10px;
+}
+
+.filters .active {
+  background: #222222;
+  color: white;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -41,4 +63,10 @@ main {
 
 .product h3 {
   margin: 10px 0 5px;
+}
+
+.news div {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
 }
