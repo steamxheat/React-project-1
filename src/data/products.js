@@ -17,6 +17,7 @@ import product6Img from '../assets/products/product-6.jpg'
 import product7Img from '../assets/products/product-7.jpg'
 import product8Img from '../assets/products/product-8.jpg'
 import product9Img from '../assets/products/product-9.jpg'
+import additionalProducts from './additionalProducts.js'
 
 const products = [
   {
@@ -173,4 +174,4 @@ const products = [
   },
 ]
 
-export default products
+export default [...products, ...additionalProducts]

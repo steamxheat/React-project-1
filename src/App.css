@@ -14,11 +14,51 @@ header h2 {
 
 nav a {
   margin-right: 15px;
-  color: black;
+  color: inherit;
+}
+
+.theme-button {
+  padding: 15px 20px 0;
 }
 
 main {
   padding: 20px;
+}
+
+.home-welcome {
+  padding: 35px 25px;
+  margin-bottom: 30px;
+  border: 1px solid #cccccc;
+}
+
+.home-welcome h1 {
+  margin-top: 0;
+}
+
+.catalog-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 13px;
+  background: #222222;
+  color: white;
+  text-decoration: none;
+}
+
+.advantages {
+  margin-top: 30px;
+}
+
+.advantages > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.advantages p {
+  width: 200px;
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #cccccc;
 }
 
 .search {
@@ -69,4 +109,57 @@ main {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #cccccc;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 700px;
+}
+
+.contact-info div,
+.how-to-find {
+  padding: 15px;
+  border: 1px solid #cccccc;
+}
+
+.contact-info h3,
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info p {
+  margin-top: 8px;
+}
+
+.how-to-find {
+  max-width: 670px;
+  margin-top: 20px;
+}
+
+.how-to-find h2 {
+  margin-top: 0;
+}
+
+.contact-photos {
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.contact-photos h2 {
+  margin-bottom: 15px;
+}
+
+.contact-photos div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.contact-photos img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: 1px solid #cccccc;
 }
